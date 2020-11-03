@@ -1,0 +1,11 @@
+CREATE TABLE register(
+name varchar(255),
+email varchar(255) UNIQUE,
+dob varchar(255),
+category varchar(50),
+gender varchar(50),
+registeration_no varchar(255) PRIMARY KEY,
+maths int DEFAULT NULL,
+physics int DEFAULT NULL,
+chemistry int DEFAULT NULL,
+total int DEFAULT NULL);
